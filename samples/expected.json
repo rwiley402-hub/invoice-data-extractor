@@ -1,0 +1,460 @@
+[
+  {
+    "file": "invoice_01_northwind.pdf",
+    "layout": "grid",
+    "invoice_number": "NW-2026-4183",
+    "invoice_date": "2026-07-26",
+    "due_date": "2026-08-25",
+    "vendor": "Northwind Office Supplies",
+    "currency": "USD",
+    "line_items": [
+      {
+        "description": "Recycled copy paper A4 (box of 5 reams)",
+        "quantity": "6",
+        "unit_price": "24.50",
+        "amount": "147.00"
+      },
+      {
+        "description": "Whiteboard markers assorted (set of 8)",
+        "quantity": "16",
+        "unit_price": "11.20",
+        "amount": "179.20"
+      },
+      {
+        "description": "Ergonomic mesh office chair",
+        "quantity": "1",
+        "unit_price": "189.00",
+        "amount": "189.00"
+      },
+      {
+        "description": "Gel ink pens, blue (pack of 12)",
+        "quantity": "38",
+        "unit_price": "8.75",
+        "amount": "332.50"
+      }
+    ],
+    "subtotal": "847.70",
+    "tax_rate": "8.25",
+    "tax": "69.94",
+    "shipping": "18.00",
+    "total": "935.64",
+    "expected_valid": true,
+    "notes": []
+  },
+  {
+    "file": "invoice_02_northwind.pdf",
+    "layout": "grid",
+    "invoice_number": "NW-2026-9325",
+    "invoice_date": "2026-07-12",
+    "due_date": "2026-07-26",
+    "vendor": "Northwind Office Supplies",
+    "currency": "USD",
+    "line_items": [
+      {
+        "description": "Desk organiser, bamboo",
+        "quantity": "32",
+        "unit_price": "19.99",
+        "amount": "639.68"
+      },
+      {
+        "description": "Whiteboard markers assorted (set of 8)",
+        "quantity": "39",
+        "unit_price": "11.20",
+        "amount": "436.80"
+      },
+      {
+        "description": "Ergonomic mesh office chair",
+        "quantity": "1",
+        "unit_price": "189.00",
+        "amount": "189.00"
+      },
+      {
+        "description": "Heavy-duty stapler",
+        "quantity": "10",
+        "unit_price": "32.40",
+        "amount": "324.00"
+      },
+      {
+        "description": "Monitor arm, dual mount",
+        "quantity": "1",
+        "unit_price": "74.95",
+        "amount": "74.95"
+      },
+      {
+        "description": "Recycled copy paper A4 (box of 5 reams)",
+        "quantity": "4",
+        "unit_price": "24.50",
+        "amount": "98.00"
+      }
+    ],
+    "subtotal": "1762.43",
+    "tax_rate": "8.25",
+    "tax": "145.40",
+    "shipping": "12.50",
+    "total": "1920.33",
+    "expected_valid": true,
+    "notes": []
+  },
+  {
+    "file": "invoice_03_bluepeak.pdf",
+    "layout": "modern",
+    "invoice_number": "BPC-04856",
+    "invoice_date": "2026-01-27",
+    "due_date": "2026-02-10",
+    "vendor": "Bluepeak Cloud Services",
+    "currency": "USD",
+    "line_items": [
+      {
+        "description": "Load balancer (hours)",
+        "quantity": "360",
+        "unit_price": "0.03",
+        "amount": "10.80"
+      },
+      {
+        "description": "Managed PostgreSQL, standard tier",
+        "quantity": "3",
+        "unit_price": "149.00",
+        "amount": "447.00"
+      },
+      {
+        "description": "Premium support plan",
+        "quantity": "3",
+        "unit_price": "299.00",
+        "amount": "897.00"
+      },
+      {
+        "description": "Compute instances (vCPU-hours)",
+        "quantity": "1660",
+        "unit_price": "0.45",
+        "amount": "747.00"
+      },
+      {
+        "description": "Object storage egress (GB)",
+        "quantity": "830",
+        "unit_price": "0.08",
+        "amount": "66.40"
+      }
+    ],
+    "subtotal": "2168.20",
+    "tax_rate": "6.25",
+    "tax": "135.51",
+    "shipping": "0.00",
+    "total": "2303.71",
+    "expected_valid": true,
+    "notes": []
+  },
+  {
+    "file": "invoice_04_bluepeak.pdf",
+    "layout": "modern",
+    "invoice_number": "BPC-06932",
+    "invoice_date": "2026-08-03",
+    "due_date": "2026-08-17",
+    "vendor": "Bluepeak Cloud Services",
+    "currency": "USD",
+    "line_items": [
+      {
+        "description": "Block storage (GB-month)",
+        "quantity": "2210",
+        "unit_price": "0.10",
+        "amount": "221.00"
+      },
+      {
+        "description": "Premium support plan",
+        "quantity": "1",
+        "unit_price": "299.00",
+        "amount": "299.00"
+      },
+      {
+        "description": "Managed PostgreSQL, standard tier",
+        "quantity": "3",
+        "unit_price": "149.00",
+        "amount": "447.00"
+      }
+    ],
+    "subtotal": "967.00",
+    "tax_rate": "6.25",
+    "tax": "60.44",
+    "shipping": "0.00",
+    "total": "1027.44",
+    "expected_valid": true,
+    "notes": []
+  },
+  {
+    "file": "invoice_05_alderfinch.pdf",
+    "layout": "compact",
+    "invoice_number": "AF/7634",
+    "invoice_date": "2026-01-08",
+    "due_date": "2026-02-22",
+    "vendor": "Alder & Finch Design Studio",
+    "currency": "GBP",
+    "line_items": [
+      {
+        "description": "Website UI design (per day)",
+        "quantity": "4",
+        "unit_price": "520.00",
+        "amount": "2080.00"
+      },
+      {
+        "description": "Brand identity workshop",
+        "quantity": "1",
+        "unit_price": "450.00",
+        "amount": "450.00"
+      },
+      {
+        "description": "Logo concept round",
+        "quantity": "2",
+        "unit_price": "680.00",
+        "amount": "1360.00"
+      },
+      {
+        "description": "Print-ready artwork prep",
+        "quantity": "3",
+        "unit_price": "95.00",
+        "amount": "285.00"
+      },
+      {
+        "description": "Illustration (per piece)",
+        "quantity": "1",
+        "unit_price": "220.00",
+        "amount": "220.00"
+      }
+    ],
+    "subtotal": "4395.00",
+    "tax_rate": "20",
+    "tax": "879.00",
+    "shipping": "0.00",
+    "total": "5274.00",
+    "expected_valid": true,
+    "notes": []
+  },
+  {
+    "file": "invoice_06_alderfinch.pdf",
+    "layout": "compact",
+    "invoice_number": "AF/8652",
+    "invoice_date": "2026-08-31",
+    "due_date": "2026-10-15",
+    "vendor": "Alder & Finch Design Studio",
+    "currency": "GBP",
+    "line_items": [
+      {
+        "description": "Logo concept round",
+        "quantity": "3",
+        "unit_price": "680.00",
+        "amount": "2040.00"
+      },
+      {
+        "description": "Brand identity workshop",
+        "quantity": "2",
+        "unit_price": "450.00",
+        "amount": "900.00"
+      },
+      {
+        "description": "Website UI design (per day)",
+        "quantity": "1",
+        "unit_price": "520.00",
+        "amount": "520.00"
+      },
+      {
+        "description": "Illustration (per piece)",
+        "quantity": "2",
+        "unit_price": "220.00",
+        "amount": "440.00"
+      }
+    ],
+    "subtotal": "3900.00",
+    "tax_rate": "20",
+    "tax": "780.00",
+    "shipping": "0.00",
+    "total": "4680.00",
+    "expected_valid": true,
+    "notes": []
+  },
+  {
+    "file": "invoice_07_kestrel.pdf",
+    "layout": "grid",
+    "invoice_number": "KL-00636",
+    "invoice_date": "2026-05-30",
+    "due_date": "2026-07-14",
+    "vendor": "Kestrel Logistik GmbH",
+    "currency": "EUR",
+    "line_items": [
+      {
+        "description": "Road freight Hamburg to Munich",
+        "quantity": "4",
+        "unit_price": "640.00",
+        "amount": "2560.00"
+      },
+      {
+        "description": "Shrink wrapping (per pallet)",
+        "quantity": "21",
+        "unit_price": "4.50",
+        "amount": "94.50"
+      },
+      {
+        "description": "Customs documentation fee",
+        "quantity": "22",
+        "unit_price": "45.00",
+        "amount": "990.00"
+      },
+      {
+        "description": "Pallet storage (per pallet-week)",
+        "quantity": "36",
+        "unit_price": "6.80",
+        "amount": "244.80"
+      },
+      {
+        "description": "Pick and pack service (per order)",
+        "quantity": "6",
+        "unit_price": "2.35",
+        "amount": "14.10"
+      }
+    ],
+    "subtotal": "3903.40",
+    "tax_rate": "19",
+    "tax": "741.65",
+    "shipping": "0.00",
+    "total": "4645.05",
+    "expected_valid": true,
+    "notes": []
+  },
+  {
+    "file": "invoice_08_kestrel.pdf",
+    "layout": "grid",
+    "invoice_number": "KL-07825",
+    "invoice_date": "2026-02-27",
+    "due_date": "2026-03-29",
+    "vendor": "Kestrel Logistik GmbH",
+    "currency": "EUR",
+    "line_items": [
+      {
+        "description": "Road freight Hamburg to Munich",
+        "quantity": "1",
+        "unit_price": "640.00",
+        "amount": "640.00"
+      },
+      {
+        "description": "Pallet storage (per pallet-week)",
+        "quantity": "14",
+        "unit_price": "6.80",
+        "amount": "95.20"
+      },
+      {
+        "description": "Pick and pack service (per order)",
+        "quantity": "19",
+        "unit_price": "2.35",
+        "amount": "44.65"
+      },
+      {
+        "description": "Shrink wrapping (per pallet)",
+        "quantity": "23",
+        "unit_price": "4.50",
+        "amount": "103.50"
+      }
+    ],
+    "subtotal": "883.35",
+    "tax_rate": "19",
+    "tax": "167.84",
+    "shipping": "0.00",
+    "total": "1051.19",
+    "expected_valid": true,
+    "notes": []
+  },
+  {
+    "file": "invoice_09_copperleaf.pdf",
+    "layout": "modern",
+    "invoice_number": "CC-1390",
+    "invoice_date": "2026-06-14",
+    "due_date": "2026-07-14",
+    "vendor": "Copperleaf Catering Co.",
+    "currency": "USD",
+    "line_items": [
+      {
+        "description": "Event staff (per hour)",
+        "quantity": "6",
+        "unit_price": "38.00",
+        "amount": "228.00"
+      },
+      {
+        "description": "Afternoon pastry platter",
+        "quantity": "3",
+        "unit_price": "65.00",
+        "amount": "195.00"
+      },
+      {
+        "description": "Boxed lunch, vegetarian",
+        "quantity": "9",
+        "unit_price": "14.25",
+        "amount": "128.25"
+      },
+      {
+        "description": "Breakfast buffet (per guest)",
+        "quantity": "39",
+        "unit_price": "18.50",
+        "amount": "721.50"
+      },
+      {
+        "description": "Coffee and tea service (per guest)",
+        "quantity": "10",
+        "unit_price": "4.80",
+        "amount": "48.00"
+      },
+      {
+        "description": "Boxed lunch, classic",
+        "quantity": "17",
+        "unit_price": "15.75",
+        "amount": "267.75"
+      }
+    ],
+    "subtotal": "1588.50",
+    "tax_rate": "9",
+    "tax": "142.97",
+    "shipping": "0.00",
+    "total": "1731.47",
+    "expected_valid": true,
+    "notes": []
+  },
+  {
+    "file": "invoice_10_copperleaf.pdf",
+    "layout": "modern",
+    "invoice_number": "CC-8658",
+    "invoice_date": "2026-07-31",
+    "due_date": "2026-08-30",
+    "vendor": "Copperleaf Catering Co.",
+    "currency": "USD",
+    "line_items": [
+      {
+        "description": "Coffee and tea service (per guest)",
+        "quantity": "38",
+        "unit_price": "4.80",
+        "amount": "182.40"
+      },
+      {
+        "description": "Boxed lunch, vegetarian",
+        "quantity": "16",
+        "unit_price": "14.25",
+        "amount": "228.00"
+      },
+      {
+        "description": "Afternoon pastry platter",
+        "quantity": "4",
+        "unit_price": "65.00",
+        "amount": "260.00"
+      },
+      {
+        "description": "Breakfast buffet (per guest)",
+        "quantity": "40",
+        "unit_price": "18.50",
+        "amount": "740.00"
+      }
+    ],
+    "subtotal": "1410.40",
+    "tax_rate": "9",
+    "tax": "126.94",
+    "shipping": "0.00",
+    "total": "1547.34",
+    "expected_valid": false,
+    "notes": [
+      "Printed total is 10.00 higher than subtotal + tax (intentional)."
+    ]
+  }
+]

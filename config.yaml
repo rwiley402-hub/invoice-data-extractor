@@ -1,0 +1,24 @@
+# invoice-data-extractor configuration.
+# Environment variables (see .env.example) override these values.
+
+paths:
+  input_dir: samples        # folder scanned by `extract` (no args) and `watch`
+  output_dir: output        # Excel / JSON reports are written here
+
+export:
+  excel_filename: invoices.xlsx
+  json_filename: invoices.json
+
+validation:
+  tolerance: 0.01           # max allowed rounding difference per check
+
+watch:
+  interval_seconds: 5       # polling interval
+  settle_seconds: 2         # ignore files modified more recently than this (still copying)
+
+ocr:
+  enabled: false            # requires `pip install pytesseract` + Tesseract binary
+  language: eng
+
+logging:
+  level: INFO

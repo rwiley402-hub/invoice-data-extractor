@@ -1,0 +1,12 @@
+# Runtime
+pdfplumber==0.11.10
+openpyxl==3.1.5
+PyYAML==6.0.3
+python-dotenv==1.2.4
+
+# Sample generation (scripts/generate_samples.py) and tests
+reportlab==5.0.1
+pytest==9.1.1
+
+# Optional OCR for scanned invoices (also needs the Tesseract binary):
+# pytesseract==0.3.13
